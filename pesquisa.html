@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="pesquisacss.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="topo">
+            <img src="junimo.png" alt="" class="junimo">
+            <input class="pesquisa" type="text" placeholder="Search..">
+        </div>
+
+        <div class="campo1"></div>
+
+        <div class="campo2"></div>
+
+        <div class="campo3"></div>
+
+    </div>
+
+</body>
+<style>
+    body {
+    background-color: rgb(248, 234, 234);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 260px 250px;
+    column-gap: 20px;
+}
+
+.junimo {
+    width: 60px;
+    height: 60px;
+}
+
+.topo{
+    top: 20px;
+    grid-column: 1/2;
+    grid-row: 1;
+    position: relative;
+}
+
+.campo1 {
+    background-color: white;
+    width: 900px;
+    height: 510px;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 2/3;
+}
+
+.campo2 {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.campo3 {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.pesquisa {
+    border-radius: 10px;
+    width: 835px;
+    height: 50px;
+}
+</style>
+</html>
