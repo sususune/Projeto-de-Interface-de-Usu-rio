@@ -1,0 +1,25 @@
+- 1º Momento
+IHC:
+O site conta com recursos de interação humano-computador, como botões para acessar funcionalidades como área de perfil do usuário, um botão barra de ferramentas, um botão que acessa as configurações do buscador e a barra de pesquisa que é a principal funcionalidade e o foco do buscador.
+
+Arquitetura da informação:
+Botão de perfil, modo escuro, configurações e barra de pesquisa
+
+Design visual:
+Tentamos aplicar os conceitos de affordance e metáfora para facilitar a utilização do usuário
+
+Affordance:
+A lupa na barra de pesquisa deixa clara a função de pesquisar e botões como o de modo escuro e de configurações também são intuitivos para os usuários
+
+Metáfora:
+A lupa é uma metáfora para o ato de pesquisar, a lua para o modo escuro e a engrenagem para as configurações do site
+
+- 2º Momento
+Eficácia: Cumpre com o objetivo de ser um buscador e realizar pesquisas.
+Eficiência: Como o buscador é minimalista, com poucas regiões clicáveis, e possui recursos mais interativos, é então um serviço eficiente.
+Engajamento: O buscador têm uma proposta para um público mais específico, e como o design visual está de acordo com a temática procurado por este público, logo possui um engajamento.
+Tolerância ao erro: O buscador não têm implementado (ainda) recursos como voltar para a página inicial, caso o mesmo quisesse, porém no momento em que o usuário realiza uma pesquisa a barra de busca ainda continua disponível para o mesmo realizar outras pesquisas, caso a primeira, ou então os resultados, não tenha sido aquilo que ele queria.
+Fácil de aprender: O buscador possui uma arquitetura bastante comum e amigável entre os buscadores padrões e mais utilizados, tornando fácil o uso tanto para quem já fez uso de outros buscadores como para quem nunca utilizou um.
+
+Fhellipe de Medeiros Brito
+Sofia Lima Verde
